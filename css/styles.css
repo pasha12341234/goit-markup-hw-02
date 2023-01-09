@@ -1,0 +1,131 @@
+  /* основной цвет #434455  */
+/* вторичный цвет #2E2F42 */
+/*цвет кнопок и ховера с фокусом #4D5AE5 */
+/* цвет героя #FFFFFF */
+                                
+:root {--primery-text-color:#434455;
+--accent-color:#4D5AE5; }
+
+
+
+
+
+
+
+
+
+/* body */
+.page-body {background-color: #FFFFFF;}
+
+.list {list-style:none;}
+
+
+/* header */
+.logo .logo-web {color: #4D5AE5; font-family: 'Raleway';font-weight: 800;
+    font-size: 18px;}
+.logo .logo-studio {color: #2E2F42; font-family: 'Raleway';font-family: 'Raleway';font-weight: 800;
+    font-size: 18px;}
+
+   
+.nav-link {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;letter-spacing: 0.02em;
+    ;color: #2E2F42;}
+.nav-link:hover,.nav-link:focus {color:#4D5AE5 ;}
+
+
+.contacts-link { font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;;letter-spacing: 0.02em; color: #434455;}
+.contacts-link:hover ,.contacts-link:focus {color: #4D5AE5;}
+
+/* main */
+/* Studio main */
+/* HERO */
+.hero {background-color: #2E2F42;}
+.hero .hero-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;text-align: center;
+    letter-spacing: 0.02em;color: #FFFFFF;}
+.hero .hero-button {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+     background-color: #4D5AE5;
+     color: #FFFFFF;}
+.hero .hero-button:hover ,.hero .hero-button:focus {background-color: #FFFFFF;color: #4D5AE5;}
+/* Beneficiary*/
+
+.target .target-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; color:#2E2F42;}
+.target .target-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; color: #434455;}
+
+/* What are we doing */
+
+/* Our team */
+.team {background-color: #F4F4FD;}
+.team .team-hero {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px; color: #2E2F42 ;}
+.team-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; color: #2E2F42 ;}
+.team-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; color: #434455  ;}
+
+/* Portfolio main */
+
+/* Filters */
+.filters-button {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; background-color: #E7E9FC;color: #4D5AE5;}
+.filters-button:hover ,.filters-button:focus {background-color: #404BBF
+    ; color: #FFFFFF ;}
+
+/* Portfolio */
+.portfolio-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;letter-spacing: 0.02em; color: #2E2F42    ;}
+.portfolio-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; letter-spacing: 0.02em; color: #434455    ;}
+.portfolio-link .portfolio-title:hover,.portfolio-link .portfolio-title:focus {color:#4D5AE5;}
+.portfolio-text:hover , .portfolio-text:focus {color: #4D5AE5;}
+
+/* footer */
+.footer {background-color: #434455 ;}
+.footer .footer-web {color: #4D5AE5;}
+.footer .footer-studio {color:#F4F4FD ;}
+.footer-text {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;letter-spacing: 0.02em; color: #E7E9FC ;}
